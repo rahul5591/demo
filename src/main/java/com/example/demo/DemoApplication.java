@@ -25,4 +25,10 @@ public class DemoApplication {
 	public String getWelcomeHi() {
 		return "Welcome to my ";
 	}
+	
+	
+	@RequestMapping("/bye")
+	public String getWelcomebye() {
+		return "!Bye  ";
+	}
 }
