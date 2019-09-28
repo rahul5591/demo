@@ -20,4 +20,9 @@ public class DemoApplication {
 		return "Welcome rahul tamrkar";
 	}
 
+	
+	@RequestMapping("/hi")
+	public String getWelcomeHi() {
+		return "Welcome to my ";
+	}
 }
