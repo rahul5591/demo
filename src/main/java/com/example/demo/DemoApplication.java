@@ -31,4 +31,8 @@ public class DemoApplication {
 	public String getWelcomebye() {
 		return "!Bye  ";
 	}
+	@RequestMapping("/byej")
+	public String getWelcomebyeh() {
+		return "!Bye  ";
+	}
 }
