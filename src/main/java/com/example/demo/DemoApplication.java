@@ -36,12 +36,4 @@ public class DemoApplication {
 		return "!Bye  ";
 	}
 
-<<<<<<< Updated upstream
-	public void hellotest1(){
-		System.out.println("hello test1");
-=======
-	public void hellotest2(){
-              System.out.println("hello test2");
->>>>>>> Stashed changes
-	}
 }
