@@ -35,4 +35,8 @@ public class DemoApplication {
 	public String getWelcomebyeh() {
 		return "!Bye  ";
 	}
+
+	public void hellotest1(){
+		System.out.println("hello test1");
+	}
 }
