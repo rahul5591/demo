@@ -37,7 +37,7 @@ public class DemoApplication {
 	}
 
 	public void test1(){
-		System.out.println("test1 added");
+		System.out.println("Hello World");
 	}
 
 }
