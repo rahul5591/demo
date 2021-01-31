@@ -17,7 +17,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/hello")
 	public String getWelcomeMessage() {
-		return "Welcome this is me rahulk t k kjhkjghkg";
+		return "Rahul commits";
 	}
 
 	
