@@ -29,7 +29,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/bye")
 	public String getWelcomebye() {
-		return "!Bye  ";
+		return "Hi Deepak      ";
 	}
 	@RequestMapping("/byej")
 	public String getWelcomebyeh() {
