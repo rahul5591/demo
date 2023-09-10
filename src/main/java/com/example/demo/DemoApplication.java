@@ -25,6 +25,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/hi")
 	public String getWelcomeHi() {
+		System.out.println("chnge1");
 		return "Welcome to my ";
 	}
 	
