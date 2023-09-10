@@ -33,6 +33,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/bye")
 	public String getWelcomebye() {
+		System.out.println("chnge1");
 		return "Hi Deepak      ";
 	}
 	@RequestMapping("/byej")
