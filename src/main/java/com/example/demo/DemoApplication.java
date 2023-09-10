@@ -17,6 +17,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/hello")
 	public String getWelcomeMessage() {
+		System.out.println("rahul's commit");
 		return "Rahul commits";
 	}
 
