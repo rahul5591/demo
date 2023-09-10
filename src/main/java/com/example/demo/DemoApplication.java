@@ -17,7 +17,9 @@ public class DemoApplication {
 	
 	@RequestMapping("/hello")
 	public String getWelcomeMessage() {
-		return "Welcome rahul tamrkar";
+		System.out.println("rahul's commit");
+		System.out.println("chnge1");
+		return "Rahul commits";
 	}
 
 	
@@ -29,10 +31,15 @@ public class DemoApplication {
 	
 	@RequestMapping("/bye")
 	public String getWelcomebye() {
-		return "!Bye  ";
+		return "Hi Deepak      ";
 	}
 	@RequestMapping("/byej")
 	public String getWelcomebyeh() {
 		return "!Bye  ";
 	}
+
+	public void test1(){
+		System.out.println("Hello World....Deepak");
+	}
+
 }
