@@ -36,6 +36,7 @@ public class DemoApplication {
 	}
 	@RequestMapping("/byej")
 	public String getWelcomebyeh() {
+		System.out.println("rahul's commit");
 		return "!Bye  ";
 	}
 
